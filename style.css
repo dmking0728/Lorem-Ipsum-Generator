@@ -1,29 +1,37 @@
 body {
-  background-color: #37474F;
+  background-color: rgb(245, 245, 245);
   height: 100vh;
 }
 
 .container {
-  max-width: 500px;
+  max-width: 600px;
   display: block;
   margin: 0 auto;
   text-align: center;
 }
 
 h1 {
-  font-family: 'Raleway', sans-serif;
-  color: white;
-  font-size: 40px;
-  text-shadow: 3px 3px 6px black;
+  font-family: 'Cabin', sans-serif;
+  color: #0E3467;
+  font-size:50px;
+  font-weight: 600;
+  
+}
+
+h2 {
+  font-family: 'Cabin', sans-serif;
+  color: #0E3467;
+  font-size: 19px;
 }
 
 p {
-  font-family: 'Raleway', sans-serif;
-  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #4F4F4B;
   display: block;
   margin: 0 auto;
   padding-top: 2%;
   max-width: 800px;
+  font-size: 18px;
 }
 
 
@@ -38,7 +46,7 @@ p {
 
 
 #generate {
-  background-color: #33AB39;
+  background-color: #3CC36B;
   color: white;
   border-radius: 5px;
   border: none;
@@ -47,7 +55,7 @@ p {
 }
 
 #clear {
-  background-color: #D11919;
+  background-color: #E04839;
   color: white;
   border-radius: 5px;
   border: none;
@@ -56,7 +64,7 @@ p {
 }
 
 #copy {
-  background-color: #EAAE00;
+  background-color: #EBBE13;
   color: white;
   border-radius: 5px;
   border: none;
@@ -64,18 +72,19 @@ p {
   font-size: 14px;
 }
 
+
 #number {
-	display: block;
+  display: block;
+  text-align: center;
 	font-size: 16px;
 	font-family: sans-serif;
 	font-weight: 700;
 	color: #444;
 	line-height: 1.3;
 	padding: .6em 1.4em .5em .8em;
-	width: 100%;
-	max-width: 100%; 
+  width: 40%; 
 	box-sizing: border-box;
-	margin: 10px 0;
+	margin: 10px auto;
 	border: 1px solid #aaa;
 	box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
 	border-radius: .5em;
